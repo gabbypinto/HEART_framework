@@ -185,14 +185,13 @@ pytest
 
 ## Citation
 
-If you use HEART in your research, please cite the paper. A BibTeX entry will be
-added here after release.
+Citation information will be added after the anonymous review period.
 
 ```bibtex
 @misc{heart2026,
   title  = {HEART: Emotion-Guided Test-Time Reasoning},
-  author = {HEART Contributors},
+  author = {Anonymous Authors},
   year   = {2026},
-  note   = {Manuscript under review}
+  note   = {Anonymous manuscript under review}
 }
 ```

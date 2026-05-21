@@ -9,7 +9,7 @@ description = "HEART iterative reasoning experiments with API and local model ba
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
-authors = [{name = "HEART contributors"}]
+authors = [{name = "Anonymous Authors"}]
 dependencies = [
   "attrs",
   "numpy",
