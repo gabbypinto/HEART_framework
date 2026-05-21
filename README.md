@@ -9,7 +9,7 @@ the first answer is often wrong and the useful signal comes from how the model
 revises.
 
 <p align="center">
-  <img src="images/HEART_Fig2.png" alt="HEART framework overview" width="88%">
+  <img src="images/HEART_Fig2_readme.png" alt="HEART framework overview" width="92%">
 </p>
 
 <p align="center">
