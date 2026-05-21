@@ -19,3 +19,11 @@ data/
 *.pdf
 *.parquet
 *.jsonl
+
+# Keep paper/framework assets used by the README trackable.
+!images/
+!images/*.png
+!images/*.jpg
+!images/*.jpeg
+!images/*.svg
+!images/*.webp
