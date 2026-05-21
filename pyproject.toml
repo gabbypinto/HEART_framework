@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "heart-reasoning"
+version = "0.1.0"
+description = "HEART iterative reasoning experiments with API and local model backends."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "HEART contributors"}]
+dependencies = [
+  "attrs",
+  "numpy",
+  "pandas",
+  "pydantic",
+  "sympy",
+  "tenacity",
+  "tqdm",
+]
+
+[project.optional-dependencies]
+api = [
+  "anthropic",
+  "google-api-core",
+  "google-genai",
+  "httpx",
+  "mistralai-gcp",
+  "openai",
+  "tiktoken",
+]
+livecode = [
+  "datasets",
+]
+vllm = [
+  "torch",
+  "transformers",
+  "vllm",
+]
+dev = [
+  "pytest",
+]
+
+[project.scripts]
+heart-run = "heart.new_main:run_main"
+heart-lcb = "heart.lcb_main:main"
+heart-smoke = "heart.smoke:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

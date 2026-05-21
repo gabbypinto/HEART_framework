@@ -1,0 +1,19 @@
+{
+  "config": [
+    {
+      "id": "lcb_local_smoke",
+      "model": "google/gemma-3-1b-it",
+      "backend": "vllm",
+      "mode": "llm_test_cases",
+      "release_version": "release_v6",
+      "difficulty": "easy",
+      "max_problems": 1,
+      "n_samples": 1,
+      "n_turns": 1,
+      "refine_strategy": "none",
+      "timeout": 10,
+      "output_dir": "results/livecode/lcb_local_smoke",
+      "tensor_parallel_size": 1
+    }
+  ]
+}
